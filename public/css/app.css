@@ -21368,5 +21368,19 @@ header .total {
   padding: 15px 30px;
   margin: 10px;
 }
+.section3 .blog {
+  width: 400px;
+  margin: 0px 20px;
+}
+.section3 .blog img {
+  width: 100%;
+  border-radius: 20px;
+  border: 5px solid rgba(1, 1, 1, 0.196);
+}
+.section3 .btnmore {
+  border-radius: 20px;
+  padding: 15px 30px;
+  margin: 10px;
+}
 
 /*# sourceMappingURL=app.css.map */
