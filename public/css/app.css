@@ -21320,6 +21320,34 @@ header .total {
   width: 100%;
 }
 
+.piedpage {
+  background-image: url(../img/footer_background.jpg);
+  background-position: center center;
+  background-size: 100;
+  width: 100%;
+  height: 100%;
+}
+.piedpage .largeurfooter {
+  width: 350px;
+}
+.piedpage .insta {
+  width: 350px;
+  margin: 0px 50px;
+}
+.piedpage .btnbottom {
+  border-radius: 20px;
+  border: 1px solid white;
+  margin: 10px;
+}
+.piedpage .boutonmasse {
+  width: 400px;
+}
+
+.footfoot {
+  width: 100%;
+  height: 50px;
+}
+
 .section1 {
   background-image: url(../img/main_bg.jpg);
   background-position: center;
