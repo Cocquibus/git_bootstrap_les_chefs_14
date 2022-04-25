@@ -1,3 +1,6 @@
+input
+    display: none
+
 .section1
     background-image: url(../img/main_bg.jpg)
     background-position: center
@@ -15,3 +18,30 @@
         margin: 0px 20px
     .ecart
         padding: 30px 0px
+    .fabord
+        border-bottom: 1px solid black
+        border-right: 1px solid black
+        padding: 0px 20px
+    .plat1, .plat2, .plat3, .plat4
+        display: none
+    .lienfa
+        label
+            text-decoration: none
+            color: grey
+            &:hover
+                color: rgb(199, 70, 70)
+                border-right: 4px solid rgb(199, 70, 70)
+    #premier
+        &:checked + .plat1
+            display: block
+    #deuxieme
+        &:checked + .plat2
+            display: block
+    #troisieme
+        &:checked + .plat3
+            display: block
+    #quatrieme
+        &:checked + .plat4
+            display: block
+    .txts1
+        width: 380px
