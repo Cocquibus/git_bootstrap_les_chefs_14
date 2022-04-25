@@ -21339,4 +21339,8 @@ header .total {
   padding: 30px 0px;
 }
 
+.sectchef .borderbotimg {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+}
+
 /*# sourceMappingURL=app.css.map */
