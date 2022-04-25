@@ -21300,7 +21300,33 @@ header .btnnav {
 }
 header .centragehead {
   width: 500px;
-  margin: 100px 0px;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+header .fixage {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+}
+header .centragenav {
+  width: 100%;
+}
+header .total {
+  width: 100%;
+}
+
+.section1 {
+  background-image: url(../img/main_bg.jpg);
+  background-position: center;
+  padding: 100px 0px;
+}
+.section1 .feuille1 {
+  width: 80%;
+  margin: 0px auto;
+}
+.section1 .centragetxts1 {
+  margin: 50px 0px;
+  width: 600px;
 }
 
 /*# sourceMappingURL=app.css.map */
