@@ -21383,4 +21383,27 @@ header .total {
   margin: 10px;
 }
 
+.sectiondame {
+  background-image: url(../img/testimonials_background.jpg);
+  background-size: 100;
+  height: 100%;
+  width: 100%;
+  background-position: center center;
+}
+.sectiondame .imgtesti {
+  border-radius: 50%;
+  border: 5px solid grey;
+}
+.sectiondame .femmew {
+  width: 1000px;
+}
+.sectiondame .cadrecarte {
+  width: 500px;
+  border: 1px solid white;
+  height: 200px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0px 50px;
+}
+
 /*# sourceMappingURL=app.css.map */
