@@ -21397,6 +21397,9 @@ input {
 .section1 #deuxieme:checked + .plat2 {
   display: block;
 }
+.section1 #deuxieme:checked + .plat1 {
+  display: none;
+}
 .section1 #troisieme:checked + .plat3 {
   display: block;
 }
