@@ -6,6 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import '../../../public/css/mini.css';
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11119,6 +11120,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /*!
  * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -21262,6 +21267,13 @@ body {
   padding: 0px;
 }
 
+.policecarousel {
+  font-family: "Courgette", cursive;
+}
+.policecarousel .fs-1 {
+  font-size: 4em !important;
+}
+
 nav {
   padding: 40px 0px;
 }
@@ -21295,9 +21307,10 @@ header {
   background-color: rgba(0, 0, 0, 0.774);
   background-blend-mode: darken;
   background-position: center center;
-  height: 700px;
+  height: 1000px;
 }
 header .btnnav {
+  font-family: "Roboto", sans-serif;
   width: 200px;
   margin: 0px 20px;
   border-radius: 30px;
@@ -21376,16 +21389,17 @@ input {
   padding: 30px 0px;
 }
 .section1 .fabord {
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1254901961);
   padding: 0px 20px;
+  margin: 0px 0px 0px 10px;
 }
 .section1 .plat1, .section1 .plat2, .section1 .plat3, .section1 .plat4 {
   display: none;
+  border-left: 3px solid rgba(0, 0, 0, 0.1254901961);
 }
 .section1 .lienfa label {
   text-decoration: none;
-  color: grey;
+  color: rgba(0, 0, 0, 0.2117647059);
 }
 .section1 .lienfa label:hover {
   color: rgb(199, 70, 70);
