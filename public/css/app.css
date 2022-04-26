@@ -21271,6 +21271,9 @@ body {
   font-family: "Courgette", cursive;
 }
 .policecarousel .fs-1 {
+  font-size: 6em !important;
+}
+.policecarousel .fs-2 {
   font-size: 4em !important;
 }
 
@@ -21299,9 +21302,20 @@ nav .bordhautbas {
   border-bottom: 1px solid white;
   height: 50px;
 }
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a:focus {
+  padding: 14px;
+  width: 100px;
+  background-color: rgb(199, 70, 70);
+}
+nav a:hover {
+  color: white;
+}
 
 header {
-  z-index: -1;
   background-image: url(../img/banner1.jpg);
   background-size: 100;
   background-color: rgba(0, 0, 0, 0.774);
@@ -21317,8 +21331,8 @@ header .btnnav {
   height: 50px;
 }
 header .centragehead {
-  width: 500px;
-  margin-top: 300px;
+  width: 900px;
+  margin-top: 250px;
   margin-bottom: 100px;
 }
 header .fixage {
@@ -21422,6 +21436,14 @@ input {
 }
 .section1 .txts1 {
   width: 380px;
+}
+.section1 .dentelletop {
+  background-image: url(../img/bottom_decoration_img.png);
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 100px;
+  margin-top: 300px;
 }
 
 .sectchef .borderbotimg {
