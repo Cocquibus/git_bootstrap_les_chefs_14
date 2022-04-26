@@ -10198,11 +10198,8 @@ nav a {
   text-decoration: none;
   color: white;
 }
-nav a:focus {
-  background-color: rgb(199, 70, 70);
-  color: white;
-}
 nav a:hover {
+  background-color: rgb(199, 70, 70);
   color: white;
 }
 
@@ -10242,6 +10239,19 @@ header .total {
   font-family: "Courgette", cursive;
 }
 
+.carousize {
+  height: 100%;
+}
+
+.dentelletopnav {
+  background-image: url(../img/bottom_decoration_img.png);
+  height: 10px;
+  width: 100%;
+  margin-top: 158px;
+  z-index: 1;
+  position: relative;
+}
+
 .piedpage {
   background-image: url(../img/footer_background.jpg);
   background-position: center center;
@@ -10257,9 +10267,10 @@ header .total {
   margin: 0px 50px;
 }
 .piedpage .btnbottom {
-  border-radius: 20px;
+  border-radius: 30px;
   border: 1px solid white;
   margin: 10px;
+  padding: 10px;
 }
 .piedpage .boutonmasse {
   width: 400px;
@@ -10339,26 +10350,13 @@ header .total {
   width: 380px;
 }
 
-.surplus {
-  position: absolute;
-  width: 300px;
-  margin: 190px 0px 0px 70px;
-  height: 65px;
-  background-color: rgb(199, 70, 70);
-  border-radius: 15px;
+.sectchef {
+  background: url(../img/team_background.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-position: center center;
+  background-color: rgb(0, 0, 0);
 }
-.surplus span {
-  font-weight: 900;
-  font-size: 1.4em;
-}
-
-.dentelletop {
-  position: relative;
-  background-image: url(../img/bottom_decoration_img.png);
-  height: 15px;
-  width: 100%;
-}
-
 .sectchef .borderbotimg {
   border-bottom: 1px solid rgba(255, 255, 255, 0.29);
 }
@@ -10377,6 +10375,8 @@ header .total {
   height: 600px;
   border-radius: 40px;
   background-image: url(../img/book_table_bg.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .section3 .cartecontact input {
   border-radius: 10px;
@@ -10385,7 +10385,7 @@ header .total {
   width: 200px;
 }
 .section3 .btnbook {
-  border-radius: 20px;
+  border-radius: 35px;
   padding: 15px 30px;
   margin: 10px;
 }
@@ -10399,7 +10399,7 @@ header .total {
   border: 5px solid rgba(1, 1, 1, 0.196);
 }
 .section3 .btnmore {
-  border-radius: 20px;
+  border-radius: 35px;
   padding: 15px 30px;
   margin: 10px;
 }
@@ -10408,6 +10408,18 @@ header .total {
   border-radius: 10px;
   text-align: left;
   color: grey;
+}
+.section3 .surplus {
+  position: absolute;
+  width: 300px;
+  margin: 200px 0px 0px 70px;
+  height: 50px;
+  background-color: #B02939;
+  border-radius: 15px;
+}
+.section3 .surplus span {
+  font-weight: 900;
+  font-size: 1.4em;
 }
 
 .sectiondame {
@@ -10419,7 +10431,7 @@ header .total {
 }
 .sectiondame .imgtesti {
   border-radius: 50%;
-  border: 5px solid grey;
+  border: 5px solid rgba(234, 234, 234, 0.9058823529);
 }
 .sectiondame .femmew {
   width: 1000px;
@@ -10439,14 +10451,14 @@ header .total {
 }
 .fondcontact .cadrerouge {
   height: 500px;
-  width: 600px;
+  width: 550px;
   border-radius: 20px;
   background-color: #B02939;
 }
 .fondcontact .bordure {
   border-bottom: 1px solid white;
-  margin: 10px 30px;
-  padding: 10px 0px;
+  padding: 30px 0px;
+  margin: 0px 30px;
 }
 
 /*!
