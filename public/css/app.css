@@ -10225,6 +10225,7 @@ header .centragehead {
 }
 header .fixage {
   position: fixed;
+  z-index: 999;
   display: flex;
   justify-content: center;
 }
