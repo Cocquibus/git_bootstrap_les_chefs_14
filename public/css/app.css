@@ -21308,10 +21308,9 @@ nav a {
 }
 nav a:focus {
   padding: 14px;
-  width: 100px;
   background-color: rgb(199, 70, 70);
 }
-nav a:hover {
+nav a:focus {
   color: white;
 }
 
@@ -21345,6 +21344,10 @@ header .centragenav {
 }
 header .total {
   width: 100%;
+}
+
+.stylefont {
+  font-family: "Courgette", cursive;
 }
 
 .piedpage {
@@ -21437,13 +21440,18 @@ input {
 .section1 .txts1 {
   width: 380px;
 }
-.section1 .dentelletop {
-  background-image: url(../img/bottom_decoration_img.png);
-  background-position: center;
-  background-size: cover;
-  width: 200px;
-  height: 100px;
-  margin-top: 300px;
+
+.surplus {
+  position: absolute;
+  width: 300px;
+  margin: 190px 0px 0px 70px;
+  height: 65px;
+  background-color: rgb(199, 70, 70);
+  border-radius: 15px;
+}
+.surplus span {
+  font-weight: 900;
+  font-size: 1.4em;
 }
 
 .sectchef .borderbotimg {
@@ -21525,7 +21533,8 @@ input {
 }
 .fondcontact .bordure {
   border-bottom: 1px solid white;
-  margin: 0px 30px;
+  margin: 10px 30px;
+  padding: 10px 0px;
 }
 
 /*# sourceMappingURL=app.css.map */
