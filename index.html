@@ -15,13 +15,13 @@
         <!--partie gauche du menu-->
         <div class="fixage d-flex justify-content-center total">
             <nav class="text-white d-flex justify-content-center align-items-center centragenav">
-                <div class="d-flex align-items-center bordhautbas">
+                <div class="d-flex align-items-center bordhautbas justify-content-center">
                     <div class="ulcentre d-flex align-items-center justify-content-center">
-                        <ul class="d-flex text-center justify-content-center">
-                            <li><a href="#home">HOME</a></li>
-                            <li><a href="#">ABOUT US</a></li>
-                            <li><a href="#menulist">MENU LIST</a></li>
-                            <li><a href="#team">TEAM</a></li>
+                        <ul class="d-flex text-center justify-content-center align-items-center">
+                            <li class="d-flex align-items-center"><a href="#home">HOME</a></li>
+                            <li class="d-flex align-items-center"><a href="#">ABOUT US</a></li>
+                            <li class="d-flex align-items-center"><a href="#menulist">MENU LIST</a></li>
+                            <li class="d-flex align-items-center"><a href="#team">TEAM</a></li>
                         </ul>
                     </div>
                 </div>
@@ -31,10 +31,10 @@
                 <div class="d-flex align-items-center bordhautbas">
                     <div class="ulcentre">
                         <ul class="d-flex justify-content-center align-items-center">
-                            <li><a href="#reservation">RESERVATION</a></li>
-                            <li><a href="#blog">BLOG</a></li>
-                            <li><a href="#testimonials">TESTIMONIALS</a></li>
-                            <li><a href="#team">CONTACT US</a></li>
+                            <li class="d-flex align-items-center"><a class="d-flex align-items-center" href="#reservation">RESERVATION</a></li>
+                            <li class="d-flex align-items-center"><a class="d-flex align-items-center" href="#blog">BLOG</a></li>
+                            <li class="d-flex align-items-center"><a class="d-flex align-items-center" href="#testimonials">TESTIMONIALS</a></li>
+                            <li class="d-flex align-items-center"><a class="d-flex align-items-center" href="#team">CONTACT US</a></li>
                         </ul>
                     </div>
                 </div>
@@ -711,23 +711,54 @@
                     <div><img src="./public/img/decoration_line.png" alt=""></div>
                 </div>
                 <div class="bg-white d-flex justify-content-center py-5">
-                    <div class="cartecontact d-flex flex-wrap justify-content-center align-items-center">
-                        <div class="w-100 text-center text-white fs-4">
+                    <div class="cartecontact">
+                        <div class="w-100 text-center text-white fs-4 mt-5">
                             <p>For any questions call us at : +91-1234567890</p>
                         </div>
-                        <div class="mx-5">
-                            <div class="my-3"><input placeholder="Enter Full Name" type="text"></div>
-                            <div class="my-3"><input placeholder="Enter Full Name" type="text"></div>
-                            <div class="my-3"><input placeholder="Enter Full Name" type="text"></div>
-                            <div class="my-3"><input placeholder="Enter Full Name" type="text"></div>
+                        <div class="d-flex justify-content-center  align-items-center mt-5">
+                            <div class="mx-5">
+                                <div class="my-3"><input placeholder="Enter Full Name" type="text"></div>
+                                <div class="my-3"><input placeholder="Phone number" type="text"></div>
+                                <div class="my-3"><input placeholder="Date" type="text"></div>
+                                <div class="dropdown">
+                                    <button class="bg-white bordurebtn btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Occasion
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </div>
+                            </div>
+                            <div class="mx-5">
+                                <div class="my-3"><input placeholder="Enter id" type="text"></div>
+                                <div class="dropdown">
+                                    <button class="bg-white bordurebtn btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Nb of person
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </div>
+                                <div class="my-3"><input placeholder="Time" type="text"></div>
+                                <div class="dropdown">
+                                    <button class="bg-white bordurebtn btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Cuisine
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                  </div>
+                            </div>    
                         </div>
-                        <div class="mx-5">
-                            <div class="my-3"><input placeholder="Enter Full Name" type="text"></div>
-                            <div class="my-3"><input placeholder="Enter Full Name" type="text"></div>
-                            <div class="my-3"><input placeholder="Enter Full Name" type="text"></div>
-                            <div class="my-3"><input placeholder="Enter Full Name" type="text"></div>
+                        <div class="d-flex justify-content-center mt-5">
+                            <button class="btn btn-danger btnbook">BOOK NOW</button>
                         </div>
-                        <button class="btn btn-danger btnbook">BOOK NOW</button>
                     </div>
                 </div>
                 <div class="bg-white d-flex align-items-center flex-column">
@@ -763,7 +794,7 @@
                 </div>
             </div>
         </section>
-        <section id="testimonials" class="sectiondame d-flex flex-column align-items-center">
+        <section id="testimonials" class="sectiondame d-flex flex-column align-items-center p-5">
             <div class="d-flex align-items-center pt-5 flex-column femmew">
                 <h1 class="stylefont text-white"><span class="text-danger">CLIENT</span> testimonials</h1>
                 <img src="./public/img/decoration_line.png" alt="">
@@ -815,40 +846,43 @@
             </div>
         </section>
     </main>
-    <footer class="piedpage text-white d-flex justify-content-center p-5">
-        <div class="largeurfooter">
-            <h4>About us</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vitae, eius reiciendis, ratione nobis
-                soluta ab expedita, ipsa doloremque consectetur accusantium quasi dolorum aut at incidunt nihil!
-                Asperiores, labore quod!</p>
-            <div class="d-flex">
-                <i class="mx-2 fa-brands fa-google"></i>
-                <i class="mx-2 fa-brands fa-google"></i>
-                <i class="mx-2 fa-brands fa-google"></i>
-                <i class="mx-2 fa-brands fa-google"></i>
+    <footer class="piedpage text-white">
+        <div class="dentellebot"></div>
+        <div class="d-flex justify-content-center p-5">
+            <div class="largeurfooter">
+                <h4>About us</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vitae, eius reiciendis, ratione nobis
+                    soluta ab expedita, ipsa doloremque consectetur accusantium quasi dolorum aut at incidunt nihil!
+                    Asperiores, labore quod!</p>
+                <div class="d-flex">
+                    <i class="mx-3 fa-brands fa-facebook-f fa-2x"></i>
+                    <i class="mx-3 fa-brands fa-google fa-2x"></i>
+                    <i class="mx-3 fa-brands fa-pinterest-p fa-2x"></i>
+                    <i class="mx-3 fa-brands fa-linkedin-in fa-2x"></i>
+                </div>
             </div>
-        </div>
-        <div class="insta">
-            <h4>INSTAGRAM</h4>
-            <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-            <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-            <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-            <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-            <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-            <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-            <img src="./public/img/instragram_gallery_img1.jpg" alt="">
-            <img src="./public/img/instragram_gallery_img2.jpg" alt="">
-        </div>
-        <div class="boutonmasse">
-            <h4>Popular tags</h4>
-            <button class="btn btn-danger btnbottom">Restaurant</button>
-            <button class="btn btn-danger btnbottom">Restaurant</button>
-            <button class="btn btn-danger btnbottom">Restaurant</button>
-            <button class="btn btn-danger btnbottom">Restaurant</button>
-            <button class="btn btn-danger btnbottom">Restaurant</button>
-            <button class="btn btn-danger btnbottom">Restaurant</button>
-            <button class="btn btn-danger btnbottom">Restaurant</button>
-            <button class="btn btn-danger btnbottom">Restaurant</button>
+            <div class="insta">
+                <h4>INSTAGRAM</h4>
+                <img src="./public/img/instragram_gallery_img1.jpg" alt="">
+                <img src="./public/img/instragram_gallery_img2.jpg" alt="">
+                <img src="./public/img/instragram_gallery_img1.jpg" alt="">
+                <img src="./public/img/instragram_gallery_img2.jpg" alt="">
+                <img src="./public/img/instragram_gallery_img1.jpg" alt="">
+                <img src="./public/img/instragram_gallery_img2.jpg" alt="">
+                <img src="./public/img/instragram_gallery_img1.jpg" alt="">
+                <img src="./public/img/instragram_gallery_img2.jpg" alt="">
+            </div>
+            <div class="boutonmasse">
+                <h4>Popular tags</h4>
+                <button class="btn btn-danger btnbottom">Restaurant</button>
+                <button class="btn btn-danger btnbottom">Responsive design</button>
+                <button class="btn btn-danger btnbottom">Hotel</button>
+                <button class="btn btn-danger btnbottom">Blog section</button>
+                <button class="btn btn-danger btnbottom">SEO</button>
+                <button class="btn btn-danger btnbottom">Cuisine</button>
+                <button class="btn btn-danger btnbottom">Graphic</button>
+                <button class="btn btn-danger btnbottom">Food</button>
+            </div>    
         </div>
     </footer>
     <div class="bg-danger footfoot"></div>
