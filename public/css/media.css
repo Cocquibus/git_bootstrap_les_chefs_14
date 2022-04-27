@@ -10599,6 +10599,10 @@ header .total {
   .centragefooter .instablock {
     justify-content: center;
   }
+
+  .imgtaille {
+    display: none !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .fixage {
