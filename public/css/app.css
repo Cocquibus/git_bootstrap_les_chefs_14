@@ -10289,6 +10289,11 @@ header .total {
   background-image: url(../img/footer_bottom_decoration_img.png);
 }
 
+.instablock {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .section1 {
   background-image: url(../img/main_bg.jpg);
   background-position: center;
