@@ -10517,15 +10517,31 @@ header .total {
     text-align: center;
   }
   .plat1 .gras, .plat2 .gras, .plat3 .gras, .plat4 .gras {
-    font-size: 0.7em !important;
+    font-size: 0.6em !important;
   }
   .plat1 .menuimg, .plat2 .menuimg, .plat3 .menuimg, .plat4 .menuimg {
     margin: 0px !important;
+    width: 90px !important;
   }
   .plat1 .alignement, .plat2 .alignement, .plat3 .alignement, .plat4 .alignement {
     flex-direction: column;
     align-items: center;
     margin: 0px 30px;
+  }
+
+  .btnbottom {
+    padding: 0px !important;
+    width: 150px !important;
+    border-radius: 10px !important;
+  }
+
+  label:hover {
+    border-bottom: 4px solid rgb(199, 70, 70) !important;
+    border-right: 0px !important;
+  }
+
+  .equilibre {
+    flex-direction: column;
   }
 
   .feuille1 {
@@ -10539,6 +10555,8 @@ header .total {
   .cadrecarte {
     margin: 30px 0px !important;
     width: 100% !important;
+    height: 100% !important;
+    text-align: center;
   }
 
   .surplus {
@@ -10586,6 +10604,9 @@ header .total {
   .centragefooter .boutonmasse {
     width: 50% !important;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .centragefooter .centragefa {
     justify-content: center;
@@ -10602,6 +10623,21 @@ header .total {
 
   .imgtaille {
     display: none !important;
+  }
+
+  .btnnav {
+    padding: 0px !important;
+  }
+
+  .femmew {
+    text-align: center;
+  }
+
+  .centragetxt {
+    text-align: center;
+    width: 40px;
+    display: flex;
+    justify-content: center;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
