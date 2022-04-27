@@ -10163,11 +10163,11 @@ body {
 .policecarousel {
   font-family: "Courgette", cursive;
 }
-.policecarousel .fs-1 {
-  font-size: 6em !important;
+.policecarousel .fts-1 {
+  font-size: 6em;
 }
-.policecarousel .fs-2 {
-  font-size: 4em !important;
+.policecarousel .fts-2 {
+  font-size: 4em;
 }
 
 nav {
@@ -10310,7 +10310,8 @@ header .total {
 }
 .section1 .menuimg {
   border-radius: 50%;
-  margin: 0px 20px;
+  margin: 0px 110px 0px 20px;
+  width: 100px;
 }
 .section1 .ecart {
   padding: 30px 0px;
@@ -10338,9 +10339,6 @@ header .total {
 .section1 #deuxieme:checked + .plat2 {
   display: block;
 }
-.section1 #deuxieme:checked + .plat1 {
-  display: none;
-}
 .section1 #troisieme:checked + .plat3 {
   display: block;
 }
@@ -10348,7 +10346,7 @@ header .total {
   display: block;
 }
 .section1 .txts1 {
-  width: 380px;
+  width: 100%;
 }
 
 .sectchef {
