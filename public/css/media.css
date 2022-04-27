@@ -10422,7 +10422,7 @@ header .total {
 
 .sectiondame {
   background-image: url(../img/testimonials_background.jpg);
-  background-size: 100;
+  background-size: cover;
   height: 100%;
   width: 100%;
   background-position: center center;
@@ -10432,10 +10432,10 @@ header .total {
   border: 5px solid rgba(234, 234, 234, 0.9058823529);
 }
 .sectiondame .femmew {
-  width: 1000px;
+  width: 100%;
 }
 .sectiondame .cadrecarte {
-  width: 500px;
+  width: 380px;
   border: 1px solid white;
   height: 200px;
   border-radius: 20px;
@@ -10523,6 +10523,19 @@ header .total {
   .feuille1 {
     width: 100% !important;
   }
+
+  .alignementmonial {
+    flex-direction: column;
+  }
+
+  .cadrecarte {
+    margin: 30px 0px !important;
+    width: 100% !important;
+  }
+
+  .surplus {
+    width: 280px !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .fixage {
@@ -10551,6 +10564,14 @@ header .total {
 
   .plat1 .gras, .plat2 .gras, .plat3 .gras, .plat4 .gras {
     font-size: 0.8em !important;
+  }
+
+  .alignementmonial {
+    flex-direction: column;
+  }
+
+  .cadrecarte {
+    margin: 50px 10px !important;
   }
 }
 

@@ -10423,7 +10423,7 @@ header .total {
 
 .sectiondame {
   background-image: url(../img/testimonials_background.jpg);
-  background-size: 100;
+  background-size: cover;
   height: 100%;
   width: 100%;
   background-position: center center;
@@ -10433,10 +10433,10 @@ header .total {
   border: 5px solid rgba(234, 234, 234, 0.9058823529);
 }
 .sectiondame .femmew {
-  width: 1000px;
+  width: 100%;
 }
 .sectiondame .cadrecarte {
-  width: 500px;
+  width: 380px;
   border: 1px solid white;
   height: 200px;
   border-radius: 20px;
