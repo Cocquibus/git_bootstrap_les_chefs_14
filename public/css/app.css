@@ -10420,6 +10420,9 @@ header .total {
   font-weight: 900;
   font-size: 1.4em;
 }
+.section3 .fts-4 {
+  font-size: 1.6em;
+}
 
 .sectiondame {
   background-image: url(../img/testimonials_background.jpg);
